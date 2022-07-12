@@ -1,8 +1,13 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.0
 
 import PackageDescription
 
 let package = Package(
     name: "AttributedTextView",
-    dependencies: []
+    products: [
+	.library(name: "AttributedTextView", targets: ["AttributedTextView"])
+    ],
+    targets: [
+        .target(name: "AttributedTextView", path: "Sources")
+    ]
 )
