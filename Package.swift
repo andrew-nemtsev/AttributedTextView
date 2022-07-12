@@ -1,15 +1,8 @@
-//
-//  AttributedTextView.swift
-//  Restofire
-//
-//  Created by Edwin Vermeer on 23/10/15.
-//  Copyright © 2016 evermeer. All rights reserved.
-//
+// swift-tools-version:5.3
 
 import PackageDescription
 
 let package = Package(
     name: "AttributedTextView",
-    dependencies: [],
-    exclude: ["Tests"]
+    dependencies: []
 )
